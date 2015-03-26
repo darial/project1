@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title>My Portfolio</title>
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <img class="title-logo" src="images/logo.jpg" alt="Logo">
+        </div>
+        <div class="col-md-6 text-right text-uppercase">
+            <h1 class="text-thin title-super">Daria Lazarieva</h1>
+            <h4>Front-end Ninja</h4>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <hr>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <img class="img-responsive" src="images/basic.jpg" alt="Watermelon">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="text-muted">Featured Work</h2>
+        </div>
+    </div>
+    <div class="row text-center">
+        <div class="col-md-4">
+            <img class="img-responsive works" src="images/think.jpg" alt="Calm water" data-toggle="modal"
+                 data-target="#foto1">
+
+            <h3 class="text-uppercase">Think</h3>
+
+            <p>http://github.com./udacity/Think</p>
+        </div>
+        <div class="col-md-4">
+            <img class="img-responsive works" src="images/decide.jpg" alt="A flower" data-toggle="modal" data-target="#foto2">
+
+            <h3 class="text-uppercase">Decide</h3>
+
+            <p>http://github.com./udacity/Decide</p>
+        </div>
+        <div class="col-md-4">
+            <img class="img-responsive works" src="images/act.jpg" alt="Jumping fish" data-toggle="modal" data-target="#foto3">
+
+            <h3 class="text-uppercase">Act</h3>
+
+            <p>http://github.com./udacity/Act</p>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="foto1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel1">Think</h4>
+            </div>
+            <div class="modal-body">
+                <img class="img-responsive" src="images/think.jpg">
+                The see as a sign of calmness and confidence.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="foto2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel2">Decide</h4>
+            </div>
+            <div class="modal-body">
+                <img class="img-responsive" src="images/decide.jpg">
+                Petals of a flower as a sign of multiple choice.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="foto3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel3">Act</h4>
+            </div>
+            <div class="modal-body">
+                <img class="img-responsive" src="images/act.jpg">
+                A jump as a sign of action.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
